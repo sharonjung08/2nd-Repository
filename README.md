@@ -50,6 +50,7 @@ ggplot(AllYear,aes(x=Age.Groups.Code, y=sumCOUnt, fill=Leading.Cancer.Sites)) + 
   labs(title="Cancer Incidence Recent 20 Years by age group", x = "Age", y = "Cancer Incidence")
 
 ########################
+## for a neat image 
 unique(AllYear$Age.Groups.Code) ##unique/distinct info
 
 AllYearDecade <- AllYear%>% 
